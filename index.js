@@ -12,7 +12,7 @@ app.get("/health", (req, res) => {
 })
 
 app.get("/", (req, res) => {
-    return res.status(200).json({ message: "Hello Vallen!"})
+    return res.status(200).json({ message: "Hello Vallen. You are DSA God!"})
 })
 
 app.listen(port, () => {
